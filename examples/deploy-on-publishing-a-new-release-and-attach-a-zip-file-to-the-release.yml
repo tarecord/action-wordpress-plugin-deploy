@@ -46,7 +46,7 @@ jobs:
     # This is just like cloning a repository except it only checks out the specific commit
     # the job is executed for. In our case here, the commit that the release is attached to.
     - name: Checkout code
-      uses: actions/checkout@v2
+      uses: actions/checkout@v4
 
     # Optional: If your plugin is using composer dependencies, we want to include them
     # WITHOUT the dev dependencies.
